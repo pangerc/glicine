@@ -9,7 +9,14 @@ export default {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        iskry: ["Iskry One", "sans-serif"],
+      },
+      colors: {
+        "green-glicine": "#B0CDAF", // Your custom color without shades
+      },
+    },
   },
   plugins: [],
 };

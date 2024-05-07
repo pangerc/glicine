@@ -1,5 +1,8 @@
 <template>
   <main class="container mx-auto py-12">
-    <h1 class="text-3xl font-bold">Casa Glicine</h1>
+    <Hero />
   </main>
 </template>
+<script setup>
+import Hero from "@/components/hero.vue";
+</script>

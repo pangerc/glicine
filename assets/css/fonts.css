@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Iskry One';
+    src: url('../fonts/iskry-one-test.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Iskry Two';
+    src: url('../fonts/iskry-two-test.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Iskry Three';
+    src: url('../fonts/iskry-three-test.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
