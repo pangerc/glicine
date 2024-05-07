@@ -15,7 +15,7 @@
         <img :src="item.image" :alt="item.title" class="w-full h-auto" />
       </div>
       <div class="md:w-1/2 flex items-center">
-        <div class="m-4">
+        <div class="my-4 mx-4 md:mx-12">
           <h2 class="text-2xl md:text-4xl font-iskry pb-4">{{ item.title }}</h2>
           <p class="font-light text-gray-600">{{ item.description }}</p>
         </div>
