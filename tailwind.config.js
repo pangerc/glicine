@@ -15,6 +15,7 @@ export default {
       },
       colors: {
         "green-glicine": "#B0CDAF", // Your custom color without shades
+        "creme-glicine": "#FFFBF7", // Your custom color without shades
       },
     },
   },

@@ -1,10 +1,18 @@
 <template>
-  <main class="">
+  <main class="bg-creme-glicine">
     <Hero />
     <Lion />
+    <Layout />
+    <Features />
+    <Gallery />
+    <Location />
   </main>
 </template>
 <script setup>
 import Hero from "@/components/hero.vue";
 import Lion from "@/components/lion.vue";
+import Layout from "@/components/layout.vue";
+import Features from "@/components/features.vue";
+import Gallery from "@/components/gallery.vue";
+import Location from "@/components/location.vue";
 </script>
