@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-900">
+  <section class="bg-gray-900">
     <header class="absolute inset-x-0 top-0 z-50">
       <!-- <nav
         class="flex items-center justify-between p-6 lg:px-8"
@@ -92,16 +92,32 @@
     </header>
 
     <div class="relative isolate overflow-hidden pt-14">
-      <img
-        src="/img/exterior.png"
-        alt=""
+      <!-- <NuxtImg
+        src="/img/exterior.jpg"
+        srcset="/img/test.png 600w, /img/exterior.jpg 1920w"
+        sizes="(max-width: 767px) 100vw, 100vw"
+        width="3442"
+        height="2482"
+        alt="Glicine"
         class="absolute inset-0 -z-10 h-full w-full object-cover"
+      /> -->
+      <img
+        src="/img/sm/exterior.jpg"
+        class="lg:hidden absolute inset-0 -z-10 h-full w-full object-cover"
+        alt="Casa Glicine"
       />
+
+      <img
+        src="/img/exterior.jpg"
+        class="hidden lg:block absolute inset-0 -z-10 h-full w-full object-cover"
+        alt="Casa Glicine"
+      />
+
       <div
         class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
         aria-hidden="true"
       >
-        <div
+        <!-- <div
           class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
           style="
             clip-path: polygon(
@@ -123,7 +139,7 @@
               74.1% 44.1%
             );
           "
-        />
+        /> -->
       </div>
       <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
         <img src="/img/logo-wht-glow.svg" />
@@ -132,7 +148,7 @@
         class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
         aria-hidden="true"
       >
-        <div
+        <!-- <div
           class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
           style="
             clip-path: polygon(
@@ -154,10 +170,10 @@
               74.1% 44.1%
             );
           "
-        />
+        /> -->
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup>

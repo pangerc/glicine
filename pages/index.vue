@@ -1,8 +1,10 @@
 <template>
-  <main class="container mx-auto py-12">
+  <main class="">
     <Hero />
+    <Lion />
   </main>
 </template>
 <script setup>
 import Hero from "@/components/hero.vue";
+import Lion from "@/components/lion.vue";
 </script>
