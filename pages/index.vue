@@ -6,6 +6,7 @@
     <Features />
     <Gallery />
     <Location />
+    <Contact />
   </main>
 </template>
 <script setup>
@@ -15,4 +16,5 @@ import Layout from "@/components/layout.vue";
 import Features from "@/components/features.vue";
 import Gallery from "@/components/gallery.vue";
 import Location from "@/components/location.vue";
+import Contact from "@/components/contact.vue";
 </script>
