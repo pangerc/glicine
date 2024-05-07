@@ -141,7 +141,7 @@
           "
         /> -->
       </div>
-      <div class="mx-auto w-96 md:max-w-2xl py-32 sm:py-48 lg:py-56">
+      <div class="mx-auto md:max-w-lg py-32 sm:py-48 lg:py-56">
         <img src="/img/logo-wht-glow.svg" />
       </div>
       <div
