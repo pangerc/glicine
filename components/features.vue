@@ -3,7 +3,7 @@
     class="container mx-auto flex flex-col justify-center items-center pb-16"
   >
     <!-- <h1 class="text-4xl md:text-5xl font-iskry">Total Comfort</h1> -->
-    <div class="md:grid md:grid-cols-3 w-full mt-10 ml-24">
+    <div class="md:grid md:grid-cols-3 w-full mt-10 pl-4 md:pl-24">
       <div
         v-for="item in features"
         class="font-light text-gray-600 flex justify-start items-center py-4"

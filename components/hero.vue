@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gray-900">
+  <section class="bg-gray-900 hero">
     <header class="absolute inset-x-0 top-0 z-50">
       <!-- <nav
         class="flex items-center justify-between p-6 lg:px-8"
@@ -141,7 +141,7 @@
           "
         /> -->
       </div>
-      <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+      <div class="mx-auto w-96 md:max-w-2xl py-32 sm:py-48 lg:py-56">
         <img src="/img/logo-wht-glow.svg" />
       </div>
       <div
@@ -190,3 +190,10 @@ const navigation = [
 
 const mobileMenuOpen = ref(false);
 </script>
+
+<style scoped>
+.hero {
+  padding-top: 0;
+  margin-top: calc(env(safe-area-inset-top) * -1);
+}
+</style>

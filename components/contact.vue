@@ -1,10 +1,10 @@
 <template>
-  <section class="pb-16">
+  <section class="pb-16" id="contact">
     <div class="flex flex-wrap">
       <div class="md:w-1/2">
         <img src="/img/lobby.png" class="w-full h-auto" />
       </div>
-      <div class="md:w-1/2 flex items-center">
+      <div class="md:w-1/2 flex items-center mt-12 md:mt-0">
         <div class="my-4 mx-4 md:mx-12">
           <h2 class="text-2xl md:text-4xl font-iskry pb-4">Welcome</h2>
           <p class="font-light text-gray-600">

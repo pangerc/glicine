@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-12">
+  <section class="pt-12 overflow-hidden">
     <div
       v-for="(item, index) in galleryItems"
       :key="item.id"
@@ -13,7 +13,6 @@
         class="md:w-1/2"
       >
         <!-- <img :src="item.image" :alt="item.title" class="w-full h-auto" /> -->
-
         <Splide
           :options="{
             type: 'loop',
