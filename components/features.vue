@@ -23,9 +23,9 @@ const features = [
   { desc: "elevator", icon: "lift.svg" },
   { desc: "washer and dryer", icon: "laundry.svg" },
   { desc: "dishwasher", icon: "dishwasher.svg" },
-  { desc: "induction and oven", icon: "oven.svg" },
+  { desc: "induction, oven and microwave", icon: "oven.svg" },
   { desc: "high speed internet", icon: "router.svg" },
-  { desc: "automated checkin", icon: "lock.svg" },
+  { desc: "automated check-in", icon: "lock.svg" },
   { desc: "terrace", icon: "terrace.svg" },
 ];
 </script>

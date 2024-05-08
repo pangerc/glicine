@@ -3,7 +3,7 @@
     <section
       class="container mx-auto flex flex-col justify-center items-center py-16"
     >
-      <article class="text-center px-4 lg:max-w-lg">
+      <article class="text-center px-4">
         <h1 class="text-4xl md:text-5xl font-iskry">
           Best of Milano in 20 minutes
         </h1>
