@@ -12,7 +12,7 @@
           and Green metro lines. Also, Tram 1 station is right at the doorstep.
 
           <img
-            src="/img/metro.svg"
+            src="/img/metro.png"
             alt="Metro Directions"
             class="mx-auto mt-10"
           />
