@@ -96,7 +96,7 @@ const galleryItems = [
     id: 6,
     title: "Book Now",
     description:
-      "Casa Glicine prefers guests interested in spending at least a week in Milano.",
+      "Guests interested in spending at least a week in Milano are preferred.",
     images: ["/img/vase.jpg", "/img/candles.png", "/img/detail3.jpg"],
     book: true,
   },
