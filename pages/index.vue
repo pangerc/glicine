@@ -1,6 +1,7 @@
 <template>
   <main class="bg-creme-glicine">
     <Hero />
+
     <Lion />
     <Layout />
     <Features />
@@ -10,7 +11,7 @@
   </main>
 </template>
 <script setup>
-import Hero from "@/components/hero.vue";
+import Hero from "@/components/video.vue";
 import Lion from "@/components/lion.vue";
 import Layout from "@/components/layout.vue";
 import Features from "@/components/features.vue";
