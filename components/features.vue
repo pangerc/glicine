@@ -20,6 +20,7 @@ import { ref } from "vue";
 const features = [
   { desc: "sleeps 4 people", icon: "bed.svg" },
   { desc: "bathtub and shower", icon: "tub.svg" },
+  { desc: "2 air conditioners", icon: "ac2.svg" },
   { desc: "elevator", icon: "lift.svg" },
   { desc: "washer and dryer", icon: "laundry.svg" },
   { desc: "dishwasher", icon: "dishwasher.svg" },
