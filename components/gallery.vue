@@ -81,7 +81,12 @@ const galleryItems = [
     title: "Bedroom",
     description:
       "Relax in this snug retreat, complete with a large window equipped with remote-controlled blinds and an insect net. Enjoy the convenience of private access to the bathroom and a designer closet.",
-    images: ["/img/bedroom.jpg", "/img/bedroom2.jpg"],
+    images: [
+      "/img/bedroom.jpg",
+      "/img/bedroom2.jpg",
+      "/img/bedroom-wa3.jpg",
+      "/img/bedroom-wa4.jpg",
+    ],
     book: false,
   },
   {
