@@ -1,9 +1,9 @@
 <template>
-  <div v-if="isOpen" class="fixed inset-0 z-50 bg-black flex flex-col">
-    <div class="relative w-full p-4">
+  <div v-if="isOpen" class="fixed inset-0 z-50 bg-black/80 flex flex-col">
+    <div class="absolute top-2 right-2 z-20">
       <button
         @click="close"
-        class="absolute top-4 right-4 z-20 bg-black bg-opacity-50 text-white rounded-full p-2 hover:bg-opacity-75 transition-colors"
+        class="bg-black bg-opacity-50 text-white rounded-full p-2 hover:bg-opacity-75 transition-colors"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -33,13 +33,15 @@
           :key="idx"
           class="flex items-center justify-center"
         >
-          <div class="w-full h-full flex flex-col">
+          <div class="w-full h-full flex flex-col justify-center">
             <img
               :src="image.src"
               :alt="image.alt"
-              class="max-w-full max-h-full object-contain flex-grow"
+              class="max-w-full max-h-[calc(100vh-4rem)] object-contain"
             />
-            <div class="text-white bg-black bg-opacity-50 p-2 w-full">
+            <div
+              class="text-gray-400 p-2 w-full absolute bottom-0 left-0 font-iskry font-light text-sm"
+            >
               {{ image.title }}
             </div>
           </div>
@@ -72,7 +74,7 @@ const splideOptions = computed(() => ({
   width: "100%",
   focus: "center",
   dragMinThreshold: 10,
-  start: props.initialIndex, // Set the initial slide
+  start: props.initialIndex,
 }));
 
 const close = () => {
@@ -109,10 +111,22 @@ watch(
 <style scoped>
 :deep(.splide__arrow) {
   background: rgba(0, 0, 0, 0.5);
+  height: 3rem;
+  width: 3rem;
 }
 
 :deep(.splide__arrow svg) {
   fill: #ffffff;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+:deep(.splide__arrow--prev) {
+  left: 1rem;
+}
+
+:deep(.splide__arrow--next) {
+  right: 1rem;
 }
 
 :deep(.splide__slide) {
@@ -126,5 +140,11 @@ watch(
 :deep(.splide__list) {
   height: 100%;
   align-items: center;
+}
+
+@media (max-width: 640px) {
+  :deep(.splide__arrow) {
+    top: 50%;
+  }
 }
 </style>
