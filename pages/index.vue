@@ -15,7 +15,7 @@ import Hero from "@/components/video.vue";
 import Lion from "@/components/lion.vue";
 import Layout from "@/components/layout.vue";
 import Features from "@/components/features.vue";
-import Gallery from "@/components/gallery.vue";
+import Gallery from "@/components/gallery2.vue";
 import Location from "@/components/location.vue";
 import Contact from "@/components/contact.vue";
 </script>
