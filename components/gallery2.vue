@@ -88,7 +88,13 @@ const galleryItems = [
     title: "Skyline Terrace",
     description:
       "Spanning the entire length of the apartment, this terrace is a secluded oasis, draped for privacy and surrounded by lush greenery. It's the perfect setting for starlit romantic dinners for two, offering expansive views of the open sky.",
-    images: ["/img/terrace2.png", "/img/terrace.png"],
+    images: [
+      "/img/terrace2.png",
+      "/img/terrace3.jpg",
+      "/img/terrace4.jpg",
+      "/img/terrace5.jpg",
+      "/img/terrace6.jpg",
+    ],
     book: false,
   },
   {
@@ -96,7 +102,19 @@ const galleryItems = [
     title: "Living Area",
     description:
       "Bask in the sunlight from the French window leading to the terrace while keeping track of the meal preparations in the kitchen. The sofa easily converts into a guest bed, accommodating two visitors with ease.",
-    images: ["/img/living.png", "/img/living2.jpg"],
+    images: [
+      "/img/living3.jpg",
+
+      "/img/living2.jpg",
+      "/img/living4.jpg",
+      "/img/living5.jpg",
+      "/img/living6.jpg",
+      "/img/living7.jpg",
+
+      "/img/living9.jpg",
+      "/img/living10.jpg",
+      "/img/living11.jpg",
+    ],
     book: false,
   },
   {
@@ -104,7 +122,7 @@ const galleryItems = [
     title: "Kitchen",
     description:
       "Enjoy the expansive views as you cook in a kitchen outfitted with an induction plate, a dual-function oven-microwave, and a dishwasher. Essential cutlery, sturdy dishes and a selection of spices ensure every meal is prepared with simplicity and flair.",
-    images: ["/img/kitchen2.jpg", "/img/kitchen.png"],
+    images: ["/img/kitchen.png", "/img/kitchen3.jpg", "/img/kitchen2.jpg"],
     book: false,
   },
   {
@@ -117,6 +135,12 @@ const galleryItems = [
       "/img/bedroom2.jpg",
       "/img/bedroom-wa3.jpg",
       "/img/bedroom-wa4.jpg",
+      "/img/bedroom5.jpg",
+      "/img/bedroom6.jpg",
+      "/img/bedroom7.jpg",
+      "/img/bedroom8.jpg",
+      "/img/bedroom9.jpg",
+      "/img/bedroom10.jpg",
     ],
     book: false,
   },
@@ -125,7 +149,13 @@ const galleryItems = [
     title: "Bathroom",
     description:
       "Marvel at how such a compact space can offer so much. Adorned with supersized white tiles, the bathroom features a skylight with remote-controlled blinds, a bidet, a full bathtub with an elegant shower, and a sink set in a niche beneath a stunning mirror.",
-    images: ["/img/bathroom.png", "/img/bathroom2.png", "/img/bathroom3.jpg"],
+    images: [
+      "/img/bathroom.jpg",
+      "/img/bathroom2.png",
+      "/img/bathroom3.jpg",
+      "/img/bathroom4.jpg",
+      "/img/bathroom5.jpg",
+    ],
     book: false,
   },
   {

@@ -57,7 +57,7 @@ const galleryItems = [
     title: "Skyline Terrace",
     description:
       "Spanning the entire length of the apartment, this terrace is a secluded oasis, draped for privacy and surrounded by lush greenery. It's the perfect setting for starlit romantic dinners for two, offering expansive views of the open sky.",
-    images: ["/img/terrace2.png", "/img/terrace.png"],
+    images: ["/img/terrace2.png", "/img/terrace.png", "/img/terrace3.jpg"],
     book: false,
   },
   {
@@ -65,7 +65,7 @@ const galleryItems = [
     title: "Living Area",
     description:
       "Bask in the sunlight from the French window leading to the terrace while keeping track of the meal preparations in the kitchen. The sofa easily converts into a guest bed, accommodating two visitors with ease.",
-    images: ["/img/living.png", "/img/living2.jpg"],
+    images: ["/img/living3.jpg", "/img/living.png", "/img/living2.jpg"],
     book: false,
   },
   {
