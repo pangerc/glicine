@@ -10,7 +10,7 @@
           'md:order-last': index % 2 === 0,
           'md:order-first': index % 2 !== 0,
         }"
-        class="md:w-1/2 relative"
+        class="md:w-1/2 relative aspect-w-4 aspect-h-3"
       >
         <button
           @click="openFullscreen(item.id, currentSlides[item.id])"
@@ -41,10 +41,12 @@
           @moved="(splide) => updateCurrentSlide(item.id, splide.index)"
         >
           <SplideSlide v-for="(image, idx) in item.images" :key="idx">
-            <img
+            <NuxtImg
               :src="image"
               :alt="`${item.title} image ${idx + 1}`"
-              class="w-full h-auto"
+              class="w-full h-auto object-contain"
+              :width="4026"
+              :height="3019"
             />
           </SplideSlide>
         </Splide>
@@ -89,11 +91,11 @@ const galleryItems = [
     description:
       "Spanning the entire length of the apartment, this terrace is a secluded oasis, draped for privacy and surrounded by lush greenery. It's the perfect setting for starlit romantic dinners for two, offering expansive views of the open sky.",
     images: [
-      "/img/terrace2.png",
-      "/img/terrace3.jpg",
-      "/img/terrace4.jpg",
-      "/img/terrace5.jpg",
-      "/img/terrace6.jpg",
+      "/img/gallery2/terrace2.jpg",
+      "/img/gallery2/terrace3.jpg",
+      "/img/gallery2/terrace4.jpg",
+      "/img/gallery2/terrace5.jpg",
+      "/img/gallery2/terrace6.jpg",
     ],
     book: false,
   },
@@ -103,17 +105,16 @@ const galleryItems = [
     description:
       "Bask in the sunlight from the French window leading to the terrace while keeping track of the meal preparations in the kitchen. The sofa easily converts into a guest bed, accommodating two visitors with ease.",
     images: [
-      "/img/living3.jpg",
+      "/img/gallery2/living3.jpg",
 
-      "/img/living2.jpg",
-      "/img/living4.jpg",
-      "/img/living5.jpg",
-      "/img/living6.jpg",
-      "/img/living7.jpg",
+      "/img/gallery2/living2.jpg",
+      "/img/gallery2/living4.jpg",
+      "/img/gallery2/living5.jpg",
+      "/img/gallery2/living6.jpg",
+      "/img/gallery2/living7.jpg",
 
-      "/img/living9.jpg",
-      "/img/living10.jpg",
-      "/img/living11.jpg",
+      "/img/gallery2/living9.jpg",
+      "/img/gallery2/living10.jpg",
     ],
     book: false,
   },
@@ -122,7 +123,11 @@ const galleryItems = [
     title: "Kitchen",
     description:
       "Enjoy the expansive views as you cook in a kitchen outfitted with an induction plate, a dual-function oven-microwave, and a dishwasher. Essential cutlery, sturdy dishes and a selection of spices ensure every meal is prepared with simplicity and flair.",
-    images: ["/img/kitchen.png", "/img/kitchen3.jpg", "/img/kitchen2.jpg"],
+    images: [
+      "/img/gallery2/kitchen.jpg",
+      "/img/gallery2/kitchen3.jpg",
+      "/img/gallery2/kitchen2.jpg",
+    ],
     book: false,
   },
   {
@@ -131,16 +136,15 @@ const galleryItems = [
     description:
       "Relax in this snug retreat, complete with a large window equipped with remote-controlled blinds and an insect net. Enjoy the convenience of private access to the bathroom and a designer closet.",
     images: [
-      "/img/bedroom.jpg",
-      "/img/bedroom2.jpg",
-      "/img/bedroom-wa3.jpg",
-      "/img/bedroom-wa4.jpg",
-      "/img/bedroom5.jpg",
-      "/img/bedroom6.jpg",
-      "/img/bedroom7.jpg",
-      "/img/bedroom8.jpg",
-      "/img/bedroom9.jpg",
-      "/img/bedroom10.jpg",
+      "/img/gallery2/bedroom.jpg",
+      "/img/gallery2/bedroom2.jpg",
+      "/img/gallery2/bedroom9.jpg",
+      "/img/gallery2/bedroom-wa3.jpg",
+      "/img/gallery2/bedroom5.jpg",
+      "/img/gallery2/bedroom6.jpg",
+      "/img/gallery2/bedroom7.jpg",
+      "/img/gallery2/bedroom8.jpg",
+      "/img/gallery2/bedroom10.jpg",
     ],
     book: false,
   },
@@ -150,11 +154,11 @@ const galleryItems = [
     description:
       "Marvel at how such a compact space can offer so much. Adorned with supersized white tiles, the bathroom features a skylight with remote-controlled blinds, a bidet, a full bathtub with an elegant shower, and a sink set in a niche beneath a stunning mirror.",
     images: [
-      "/img/bathroom.jpg",
-      "/img/bathroom2.png",
-      "/img/bathroom3.jpg",
-      "/img/bathroom4.jpg",
-      "/img/bathroom5.jpg",
+      "/img/gallery2/bathroom.jpg",
+      "/img/gallery2/bathroom2.jpg",
+      "/img/gallery2/bathroom3.jpg",
+      "/img/gallery2/bathroom4.jpg",
+      "/img/gallery2/bathroom5.jpg",
     ],
     book: false,
   },
@@ -163,7 +167,11 @@ const galleryItems = [
     title: "Book Now",
     description:
       "Guests interested in spending at least a week in Milano are preferred.",
-    images: ["/img/vase.jpg", "/img/candles.png", "/img/detail3.jpg"],
+    images: [
+      "/img/gallery2/vase.jpg",
+      "/img/gallery2/candles.jpg",
+      "/img/gallery2/detail3.jpg",
+    ],
     book: true,
   },
 ];

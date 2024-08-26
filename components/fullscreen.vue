@@ -34,13 +34,18 @@
           class="flex items-center justify-center"
         >
           <div class="w-full h-full flex flex-col justify-center">
-            <img
-              :src="image.src"
-              :alt="image.alt"
-              class="max-w-full max-h-[calc(100vh-4rem)] object-contain"
-            />
+            <div class="aspect-w-4 aspect-h-3 max-w-4xl mx-auto">
+              <NuxtImg
+                :src="image.src"
+                :alt="image.alt"
+                class="w-full h-full object-contain"
+                :width="1200"
+                :height="900"
+                :placeholder="false"
+              />
+            </div>
             <div
-              class="text-gray-400 p-2 w-full absolute bottom-0 left-0 font-iskry font-light text-sm"
+              class="text-gray-400 p-2 w-full text-center font-iskry font-light text-sm mt-2"
             >
               {{ image.title }}
             </div>
